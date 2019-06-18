@@ -1,0 +1,24 @@
+blablabla
+
+nscli keys add nico
+Enter a passphrase to encrypt your key to disk:
+Repeat the passphrase:
+{
+  "name": "nico",
+  "type": "local",
+  "address": "cosmos1yefdsa2tz9a3t52zsw2jfcd547n66c9u2fhn7j",
+  "pubkey": "cosmospub1addwnpepq2egw75crysuwwz976ntd3peyfrmy5uhfhqr3zqyhfxemmc6uzzr7055xl3",
+  "mnemonic": "never dolphin more purse improve roof over neutral camp napkin gown agent slam pair female foster joke cute prepare animal moon engage amateur stereo"
+}
+
+nscli keys add jochem
+Repeat the passphrase:
+{
+  "name": "jochem",
+  "type": "local",
+  "address": "cosmos1wx8wxu3na9zqtdszg9rz7cssjjd06wfgjw7q7t",
+  "pubkey": "cosmospub1addwnpepq2afy75prg600sdl3unyz2e9cc8apslt8estpf4svmkfeglnfzl3jny2qgh",
+  "mnemonic": "bargain clinic meadow friend rescue benefit salon enough timber siren order dilemma unveil magic excess scatter figure travel food drip detail local tuition demise"
+}
+
+

@@ -1,0 +1,46 @@
+{
+  "genesis_time": "2019-06-23T07:39:06.244285598Z",
+  "chain_id": "test-chain-HMTKxn",
+  "consensus_params": {
+    "block_size": {
+      "max_bytes": "22020096",
+      "max_gas": "-1"
+    },
+    "evidence": {
+      "max_age": "100000"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    }
+  },
+  "validators": [
+    {
+      "address": "8E3210C278AB42F00EA951188EB84438CCDC5253",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "CdrDn2pUeinPAII45SJCzswlYafT3PNDaCiJAWUrrFo="
+      },
+      "power": "10",
+      "name": ""
+    }
+  ],
+  "app_hash": "",
+  "app_state": {
+    "auth": {
+      "collected_fees": [],
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      }
+    },
+    "bank": {
+      "send_enabled": true
+    },
+    "accounts": null
+  }
+}

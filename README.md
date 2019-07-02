@@ -18,11 +18,11 @@ source ~/.bash_profile
 ```
 5. Make make sure go lang works ``go version``
 6. Install essentials  ``apt-get install build-essential git jq``
-7. Clone VMC-Cosmos Blockchain ``git clone https://github.com/inspiraluna/vmc-token.git; cd vmc-token``
+7. Clone Mobotiq-Cosmos Blockchain ``git clone https://github.com/mobotiq-node/mobotiq-node.git; cd mobotiq-node``
 8. Type ``make``
-9. Import genesis.json to connect to vmc network ``cp genesis.json ~/.nsd/config``
-10. Add seed to ~/.nsd/config&config.toml in 
+9. Import genesis.json to connect to Mobotiq network ``cp genesis.json ~/.nsd/config``
+10. Add seed to ~/.nsd/config/config.toml in 
 ```
-seeds = "add7c1a183b9fade0374e3525bb0c679d782f954@116.203.82.61:26656"
+seeds = "aa07d07b42f692436f6e1540a50d8432d363aa9c@34.66.28.194:26656"
 ```
-10. Run VMC-cosmos blockchain ``nscd start`` to start a new vmc cosmos node!
+10. Run Mobotiq-cosmos blockchain ``nsd start`` to start a new Mobotiq cosmos node!

@@ -1,6 +1,6 @@
 {
-  "genesis_time": "2019-06-23T07:39:06.244285598Z",
-  "chain_id": "test-chain-HMTKxn",
+  "genesis_time": "2019-07-02T12:56:44.502422633Z",
+  "chain_id": "mobotiq",
   "consensus_params": {
     "block_size": {
       "max_bytes": "22020096",
@@ -17,10 +17,10 @@
   },
   "validators": [
     {
-      "address": "8E3210C278AB42F00EA951188EB84438CCDC5253",
+      "address": "87A28D129D4BA9AB51D38E42E1BB587E5EC2D900",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "CdrDn2pUeinPAII45SJCzswlYafT3PNDaCiJAWUrrFo="
+        "value": "eBeYO09srpkhCA0J6uflA+BxAg8Pgbf1qlr6q1swcfI="
       },
       "power": "10",
       "name": ""
@@ -29,7 +29,7 @@
   "app_hash": "",
   "app_state": {
     "auth": {
-      "collected_fees": [],
+      "collected_fees": null,
       "params": {
         "max_memo_characters": "256",
         "tx_sig_limit": "7",
@@ -41,6 +41,39 @@
     "bank": {
       "send_enabled": true
     },
-    "accounts": null
+    "accounts": [
+      {
+        "address": "cosmos1rztk6767wy5h56jf9sr769lwz6pgv59t6gwy7x",
+        "coins": [
+          {
+            "denom": "mobotiq",
+            "amount": "100000000"
+          },
+          {
+            "denom": "stake",
+            "amount": "100000000"
+          }
+        ],
+        "public_key": null,
+        "account_number": "0",
+        "sequence": "0"
+      },
+      {
+        "address": "cosmos1jrvquz6mtc4acm0emfz3zwvlx6529uujjs9j59",
+        "coins": [
+          {
+            "denom": "mobotiq",
+            "amount": "100000000"
+          },
+          {
+            "denom": "stake",
+            "amount": "100000000"
+          }
+        ],
+        "public_key": null,
+        "account_number": "0",
+        "sequence": "0"
+      }
+    ]
   }
 }

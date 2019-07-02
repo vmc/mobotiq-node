@@ -1,24 +1,29 @@
-blablabla
-
-nscli keys add nico
-Enter a passphrase to encrypt your key to disk:
-Repeat the passphrase:
-{
-  "name": "nico",
-  "type": "local",
-  "address": "cosmos1yefdsa2tz9a3t52zsw2jfcd547n66c9u2fhn7j",
-  "pubkey": "cosmospub1addwnpepq2egw75crysuwwz976ntd3peyfrmy5uhfhqr3zqyhfxemmc6uzzr7055xl3",
-  "mnemonic": "never dolphin more purse improve roof over neutral camp napkin gown agent slam pair female foster joke cute prepare animal moon engage amateur stereo"
-}
-
-nscli keys add jochem
-Repeat the passphrase:
-{
-  "name": "jochem",
-  "type": "local",
-  "address": "cosmos1wx8wxu3na9zqtdszg9rz7cssjjd06wfgjw7q7t",
-  "pubkey": "cosmospub1addwnpepq2afy75prg600sdl3unyz2e9cc8apslt8estpf4svmkfeglnfzl3jny2qgh",
-  "mnemonic": "bargain clinic meadow friend rescue benefit salon enough timber siren order dilemma unveil magic excess scatter figure travel food drip detail local tuition demise"
-}
+- name: max
+  type: local
+  address: cosmos1rztk6767wy5h56jf9sr769lwz6pgv59t6gwy7x
+  pubkey: cosmospub1addwnpepq0970h28p7cjwd52rnkcjny0x6cru94vv50n9tcwfzjdcg692jx2x7v4x9p
+  mnemonic: ""
+  threshold: 0
+  pubkeys: []
+  passphrase: avocados
 
 
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+blush wreck problem benefit panther curtain time side expect rib soul habit absent accident gauge still silent box normal win jar shoe wire wall
+
+- name: giorgos
+  type: local
+  address: cosmos1jrvquz6mtc4acm0emfz3zwvlx6529uujjs9j59
+  pubkey: cosmospub1addwnpepqwzafmutferts3eawhlz5l0736kt9gx59n5yar47cks2u83xjy83ccm6yn6
+  mnemonic: ""
+  threshold: 0
+  pubkeys: []
+  passphrase: avocados
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+bring because swallow behind topple alert language captain clutch caution school innocent since embark leg water fossil patch typical ride edit begin priority picture

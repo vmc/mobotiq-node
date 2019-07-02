@@ -18,7 +18,7 @@ source ~/.bash_profile
 ```
 5. Make make sure go lang works ``go version``
 6. Install essentials  ``apt-get install build-essential git jq``
-7. Clone Mobotiq-Cosmos Blockchain ``git clone https://github.com/mobotiq-node/mobotiq-node.git; cd mobotiq-node``
+7. Clone Mobotiq-Cosmos Blockchain ``git clone https://github.com/vmc/mobotiq-node.git; cd mobotiq-node``
 8. Type ``make``
 9. Import genesis.json to connect to Mobotiq network ``cp genesis.json ~/.nsd/config``
 10. Add seed to ~/.nsd/config/config.toml in 
